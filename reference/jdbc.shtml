@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<meta http-equiv="Content-Language" content="zh-CN">
+<meta content="all" name="robots">
+<link rel="stylesheet" href="jdbc_files/pbdsty.css" type="text/css" media="all">
+<title>为使用 DB2 UDB 配置第三方应用服务器 - 网页制作参考</title>
+<link href="jdbc_files/floatingPanel.css" type="text/css" rel="stylesheet"></head>
+<body>
+<div id="pg">
+<b class="rt"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+<div id="r">
+<link rel="stylesheet" href="jdbc_files/alexa.css" type="text/css" media="all">
+<div id="kongruan">
+
+
+<meta http-equiv="Content-Language" content="zh-CN">
+<link rel="stylesheet" href="jdbc_files/alexa.css" type="text/css" media="all"> 
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<meta name="description" content="空软站长网，通过第三方监测为站长提供各种数据、站长工具等，专业、好用、别的地方没有！">
+<title>空软站长工具</title>
+
+<div id="all">
+<div id="t_1">
+  <div id="t_5"><div id="t_51"><a href="http://www.kongruan.com/"><img src="jdbc_files/logo2.png"></a></div><div id="t_52"></div></div>
+  <div id="t_6"><div id="t_61"><span class="now">首页</span><a href="http://tu.kongruan.com/">图片制作</a><a href="http://www.kongruan.com/quanzhong/">网站权重</a><a href="http://www.kongruan.com/reci/">热词工具</a><a href="http://www.kongruan.com/tool/">网站工具</a><a href="http://www.kongruan.com/domain/">域名查询</a><a href="http://www.kongruan.com/top/">流量排行</a><a href="http://a.kongruan.com/">Alexa排名</a></div>
+  <div id="t_62"> &nbsp; · <a href="http://www.reddeng.com/" target="_blank">素材搜索</a>
+ &nbsp; · <a href="http://www.kongruan.com/ztd_guoji/">昨天删除国际域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/ztd_guonei/">昨天删除国内域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/jtd_guoji/">今天删除国际域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/jtd_guonei/">今天删除国内域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/mtd_guoji/">明天删除国际域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/mtd_guonei/">明天删除国内域名</a>
+ &nbsp; · <a href="http://www.kongruan.com/top/alexa-top-100.asp">Alexa top 100</a></div>
+  </div>
+</div>
+<div id="m">
+<!-- right -->
+<div id="m2">
+<div id="ya">
+<a href="http://a.kongruan.com/" title="Alexa排名详细数据"><div class="ya_01"></div>Alexa排名</a>
+<a href="http://tu.kongruan.com/" title="网站banner广告图片制作"><div class="ya_02"></div>banner制作</a>
+<a href="http://www.kongruan.com/shoulu/" title="各大搜索引擎收录数量查询"><div class="ya_03"></div>网站收录查询</a>
+<a href="http://www.kongruan.com/google_pr/" title="Google PR值"><div class="ya_04"></div>PR值查询</a>
+<a href="http://www.kongruan.com/bdr/" title="Baidu域名流量等级"><div class="ya_05"></div>百度 BDR</a>
+<a href="http://www.kongruan.com/gdr/" title="google域名流量等级"><div class="ya_06"></div>Google GDR</a>
+<a href="http://www.kongruan.com/baidu/" style="color: rgb(204, 0, 0);" title="网站从百度获得的流量明细"><div class="ya_07"></div>百度域名权重</a>
+<a href="http://www.kongruan.com/google/" style="color: rgb(204, 0, 0);" title="网站从Google获得的流量明细"><div class="ya_08"></div>Google域名权重</a>
+<a href="http://www.kongruan.com/sitekey/" title="列出所查网站的主要流量关键词"><div class="ya_16"></div>网站在百度关键词</a>
+<a href="http://www.kongruan.com/googlekey/" title="列出所查网站的主要流量关键词"><div class="ya_15"></div>网站在谷歌关键词</a>
+<a href="http://www.kongruan.com/midu/" title="计算某个页面中关键词的密度"><div class="ya_09"></div>关键字密度</a>
+<a href="http://www.kongruan.com/link/" title="反向链接的数量"><div class="ya_10"></div>反向链接数</a>
+<a href="http://www.kongruan.com/xgkey/" title="相关扩展关键词，与百度相关关键词有点不同"><div class="ya_11"></div>空软相关关键字</a>
+<a href="http://www.kongruan.com/pagekey/" title="输入一个页面地址，工具自动分析该页面的关键词"><div class="ya_12"></div>网页关键词推荐</a>
+<a href="http://www.kongruan.com/sitekey/" title="列出所查网站的主要流量关键词"><div class="ya_15"></div>网站主要关键词</a>
+<a href="http://www.kongruan.com/keyhot/" title="越多高权重网站在做这个关键词则竞争越激烈"><div class="ya_16"></div>关键词竞争度</a>
+<a href="http://www.kongruan.com/btop/" title="百度带去流量最多的前100名网站"><div class="ya_13"></div>百度top100</a>
+<a href="http://www.kongruan.com/gtop/" title="Google点出流量最高的前100名网站"><div class="ya_14"></div>谷歌top100</a>
+<a href="http://www.kongruan.com/ipsites/" title="枚举某个ip上绑定的网站"><div class="ya_17"></div>同ip网站</a>
+<a href="http://www.kongruan.com/domain/" title="查询域名是否注册以及域名的whois信息"><div class="ya_18"></div>域名查询</a>
+<a href="http://www.kongruan.com/loadtime/" title="从网络多个位置测试网站的加载速度"><div class="ya_19"></div>网站速度测试</a>
+<a href="http://www.kongruan.com/ping/" title="从网络多个位置发起ping测试"><div class="ya_20"></div>超级ping</a>
+<a href="http://www.kongruan.com/ip/" title="查询网站ip以及ip所在地"><div class="ya_21"></div>网站ip地址查询</a>
+<a href="http://www.kongruan.com/tele/" title="查询固定电话的大概位置"><div class="ya_22"></div>固定电话查询</a>
+</div><!-- ya -->
+<div id="rd2_top"><div id="tb_2"><div class="arw"></div> 热门查询：</div><div class="yz"></div>
+</div>
+<div id="rd2"> 
+<div id="y4"><table border="0" cellpadding="0" cellspacing="0" width="297"><tbody><tr height="25"><td align="left" width="190">网站</td><td width="20">-</td><td>&nbsp;热门排名</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.baidu.com">baidu.com</a></td><td><font color="red">-</font></td><td>1</td></tr><tr><td><a href="http://soft.web521.com/kr/?dm=www.sina.com.cn">sina.com.cn</a></td><td><font color="red">-</font></td><td>2</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.qq.com">qq.com</a></td><td><font color="red">-</font></td><td>3</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.163.com">163.com</a></td><td><font color="red">-</font></td><td>4</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.tudou.com">tudou.com</a></td><td><font color="red">-</font></td><td>5</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.sohu.com">sohu.com</a></td><td><font color="red">-</font></td><td>6</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.youku.com">youku.com</a></td><td><font color="red">-</font></td><td>7</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.soso.com">soso.com</a></td><td><font color="red">-</font></td><td>8</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.alibaba.com">alibaba.com</a></td><td><font color="red">-</font></td><td>9</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.tianya.cn">tianya.cn</a></td><td><font color="red">-</font></td><td>10</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.xici.net">xici.net</a></td><td><font color="red">-</font></td><td>11</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.56.com">56.com</a></td><td><font color="red">-</font></td><td>12</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.ku6.com">ku6.com</a></td><td><font color="red">-</font></td><td>13</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.zol.com.cn">zol.com.cn</a></td><td><font color="red">-</font></td><td>14</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.docin.com">docin.com</a></td><td><font color="red">-</font></td><td>15</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.360doc.com">360doc.com</a></td><td><font color="red">-</font></td><td>16</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.taobao.com">taobao.com</a></td><td><font color="red">-</font></td><td>17</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.douban.com">douban.com</a></td><td><font color="red">-</font></td><td>18</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.58.com">58.com</a></td><td><font color="red">-</font></td><td>19</td></tr><tr><td><a href="http://www.kongruan.com/kr/?dm=www.soufun.com">soufun.com</a></td><td><font color="red">-</font></td><td>20</td></tr></tbody></table></div>
+</div><!-- rd2 ! -->
+</div>
+<div id="m1">
+<div id="rd1_top"><div id="tb_1" class="tbs">综合</div></div>
+<div id="rd1"> <form id="fc" action="http://www.kongruan.com/" method="get" style="margin:0; ">
+<div id="c2" style=" width:616px;padding-left:10px "><div id="des"> <div class="anc"></div> 全面查询网站的概况，包括alexa排名 百度权重 Google权重 网站排名 关键词 友情链接检测 外部链接等。</div>
+请输入要查询的域名: <br><input name="dm" class="stxt" value="163.com" type="text"><input class="sbt" id="submit" value="" type="submit"></div></form>
+<div id="c14"> <h1 style="float:left; padding:0; margin:0; font-size:12px;"><div class="arw"></div>空软站长工具 &#187; 综合查询</h1></div>
+<div id="cxc">
+<span class="dt_t" style="margin:0px 0px 10px 0px; ">&nbsp;您查询的网站为：<font color="ff0000">163.com</font>：{<a href="http://www.kongruan.com/">域名注册信息查询</a>}</span>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="3" width="603">
+<tbody><tr><td bgcolor="#f9f9f9"><table border="0" cellpadding="0" cellspacing="1" width="603"><tbody><tr height="30"><td align="center" bgcolor="#eef3fb" width="100"><font color="#993300">Title</font></td><td align="center" width="403">网易</td><td align="center" width="100"><a href="http://www.kongruan.com/pagekey/?url=http://www.163.com">关键词推荐</a></td></tr><tr height="30"><td align="center" bgcolor="#eef3fb" width="100"><font color="#993300">Keywords</font></td><td align="center">网易,邮箱,游戏,新闻,体育,娱乐,女性,亚运,论坛,短...</td><td align="center" width="100"><a href="http://www.kongruan.com/k_paimingpl/?key=%CD%F8%D2%D7%2C%D3%CA%CF%E4%2C%D3%CE%CF%B7%2C%D0%C2%CE%C5%2C%CC%E5%D3%FD%2C%D3%E9%C0%D6%2C%C5%AE%D0%D4%2C%D1%C7%D4%CB%2C%C2%DB%CC%B3%2C%B6%CC%D0%C5%2C%CA%FD%C2%EB%2C%C6%FB%B3%B5%2C%CA%D6%BB%FA%2C%B2%C6%BE%AD%2C%BF%C6%BC%BC%2C%CF%E0%B2%E1&amp;url=163.com">排名批量查询</a></td></tr><tr height="30"><td align="center" bgcolor="#eef3fb" width="100"><font color="#993300">Description</font></td><td align="center">网易是中国领先的互联网技术公司，为用户提供免费邮箱、游戏...</td><td align="center" width="100"></td></tr><tr height="30"><td align="center" bgcolor="#eef3fb" width="100"><font color="#993300">网站ip</font></td><td align="center">218.6.20.11<font color="cc0000">[福建省莆田市电信]</font>  &nbsp; 该ip上大概有 <font color="#990000">1</font> 个网站</td><td align="center" width="100"><a href="http://www.kongruan.com/ipsites/?ip=218.6.20.11">同ip网站</a></td></tr></tbody></table></td></tr>
+<tr><td bgcolor="#f9f9f9" width="520">
+<font color="#990000">&nbsp;<strong> Alexa Rank</strong></font><br>
+<table border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr height="30"><td colspan="8" align="center"><font style="color:#990000; "> alexa全球排名第 28 名 <a href="http://a.kongruan.com/?d=163.com">查看详情</a></font></td></tr>
+<tr align="center" height="30"><td bgcolor="#eef3fb">当日排名</td><td bgcolor="#eef3fb">排名变化</td><td bgcolor="#FDFFDC">一周排名</td><td bgcolor="#FDFFDC">排名变化</td><td bgcolor="#eef3fb">一月排名</td><td bgcolor="#eef3fb">排名变化</td><td bgcolor="#FDFFDC">三月排名</td><td bgcolor="#FDFFDC">排名变化</td></tr><tr align="center" height="30"><td bgcolor="#eef3fb"><strong>27</strong></td><td bgcolor="#eef3fb">0</td><td bgcolor="#FDFFDC"><strong>27</strong></td><td bgcolor="#FDFFDC">0</td><td bgcolor="#eef3fb"><strong>28</strong></td><td bgcolor="#eef3fb">0</td><td bgcolor="#FDFFDC"><strong>28</strong></td><td bgcolor="#FDFFDC">0</td></tr>
+<tr bgcolor="#eef3fb" height="30"><td colspan="4" align="center" width="250"><font color="#999999">（三个月平均）每日 IP 访问量</font></td><td colspan="4" align="center" width="250"><font color="#999999">（三个月平均）每日 PV 浏览量</font></td></tr>
+<tr bgcolor="#f9f9f9" height="30"><td colspan="4" align="center">≈<font color="#333333"><b>18,174,000</b></font></td><td colspan="4" align="center">≈<font color="#333333"><b>117,222,300</b></font></td></tr>
+</tbody></table>
+</td></tr>
+<tr height="90"><td bgcolor="#f9f9f9"><div id="qzdiv" style="margin:8px 0px 6px 0px "><font color="#990000">&nbsp; 网站权重等级</font></div><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="603"><tbody><tr align="center" height="30"><td bgcolor="#eef3fb" width="120"><font color="#990000"><b>BDR</b></font></td><td bgcolor="#eef3fb" width="120"><font color="#009900"><b>GDR</b></font></td><td bgcolor="#eef3fb" width="120"><font color="#FF6600"><b>KR</b></font></td><td bgcolor="#eef3fb" width="120"><font color="#339900"><b>PR</b></font></td><td bgcolor="#eef3fb" width="120"><font color="#66CCCC"><b>SR</b></font></td></tr><tr align="center" height="30"><td bgcolor="#f9f9f9"><img src="jdbc_files/bdr9.gif" alt="Baidu DomainRank"></td><td bgcolor="#f9f9f9"><img src="jdbc_files/gdr9.gif" alt="Google DomainRank"></td><td bgcolor="#f9f9f9"><img src="jdbc_files/kr8.gif" alt="空软外链得分"></td><td bgcolor="#f9f9f9"><span id="pr_span"><img src="jdbc_files/pr8.gif"></span></td><td bgcolor="#f9f9f9"><span id="sr_span"><img src="jdbc_files/sr9.gif"></span></td></tr><tr align="center" height="30"><td bgcolor="#f9f9f9"><a href="http://www.kongruan.com/baidu/?dm=163.com" style="color: rgb(102, 102, 102);">第 4 名</a></td><td bgcolor="#f9f9f9"><a href="http://www.kongruan.com/google/?dm=163.com" style="color: rgb(102, 102, 102);">第 9 名</a></td><td bgcolor="#f9f9f9"><a href="http://www.kongruan.com/kr/?dm=www.163.com" style="color: rgb(102, 102, 102);">第 52 名</a></td><td bgcolor="#f9f9f9"><a href="http://www.kongruan.com/realpr/?dm=www.163.com" style="color: rgb(102, 102, 102);">判断真假</a></td><td bgcolor="#f9f9f9"><a href="http://www.sogou.com/web?query=http%3A%2F%2Fwww.163.com&amp;_asf=www.sogou.com&amp;_ast=1302604472&amp;w=01019900&amp;p=40040100" style="color: rgb(102, 102, 102);" target="_blank">详情</a></td></tr></tbody></table></td></tr>
+<tr height="60"><td bgcolor="#f9f9f9"><div id="sldiv" style="margin:8px 0px 6px 0px ">
+<font color="#990000">&nbsp; 网站收录数量</font></div>
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="603"><tbody><tr align="center" height="30"><td bgcolor="#eef3fb" width="120"><img src="jdbc_files/baidu.gif" alt="百度"></td><td bgcolor="#eef3fb" width="120"><img src="jdbc_files/google.gif" alt="google"></td><td bgcolor="#eef3fb" width="120"><img src="jdbc_files/by.png" alt="必应"></td><td bgcolor="#eef3fb" width="120"><img src="jdbc_files/sogou.gif" alt="搜狗"></td><td bgcolor="#eef3fb" width="120"><img src="jdbc_files/soso.gif" alt="搜搜"></td></tr><tr align="center" height="30"><td bgcolor="#f9f9f9" width="120">≈<span id="bdnum"><font color="#3366FF">100,000,000</font></span></td><td bgcolor="#f9f9f9" width="120">≈<span id="ggnum"><font color="#3366FF">181,000,000</font></span></td><td bgcolor="#f9f9f9" width="120">≈<span id="bynum"><font color="#3366FF">6,070,000</font></span></td><td bgcolor="#f9f9f9" width="120">≈<span id="sgnum"><font color="#3366FF">18,906,200</font></span></td><td bgcolor="#f9f9f9" width="120">≈<span id="ssnum"><font color="#3366FF">26,900,000</font></span></td></tr></tbody></table>
+</td></tr>
+<tr height="60"><td bgcolor="#f9f9f9"><div id="sldiv" style="margin:8px 0px 6px 0px ">
+<font color="#990000">&nbsp; 百度收录细节</font></div>
+<span id="bdd"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="603"><tbody><tr align="center" height="30"><td bgcolor="#eef3fb" width="120">快照日期</td><td bgcolor="#eef3fb" width="120">今日收录</td><td bgcolor="#eef3fb" width="120">一周收录</td><td bgcolor="#eef3fb" width="120">一月收录</td><td bgcolor="#eef3fb" width="120">首页位置</td></tr><tr align="center" height="30"><td bgcolor="#f9f9f9" width="120"><font color="#3366FF">2011-4-21</font></td><td bgcolor="#f9f9f9" width="120">≈<a style="color: rgb(51, 102, 255);">523,000</a></td><td bgcolor="#f9f9f9" width="120">≈<a style="color: rgb(51, 102, 255);">4,960,000</a></td><td bgcolor="#f9f9f9" width="120">≈<a style="color: rgb(51, 102, 255);">35,500,000</a></td><td bgcolor="#f9f9f9" width="120">第 1 位</td></tr></tbody></table></span>
+</td></tr>
+<tr><td bgcolor="#f9f9f9">
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr height="80"><td align="center" bgcolor="#eef3fb" width="70"><span style="font-size:14px; color:#336600; ">百度<br>关键词</span></td><td align="left" bgcolor="#f9f9f9">&nbsp;163 <font color="#dddddd">|</font> 163邮箱 <font color="#dddddd">|</font> 网易 <font color="#dddddd">|</font> 上海移动 <font color="#dddddd">|</font> 谷歌地图 <font color="#dddddd">|</font> 新闻 <font color="#dddddd">|</font> 韩寒 <font color="#dddddd">|</font> 黄晓明 <font color="#dddddd">|</font> 京东网 <font color="#dddddd">|</font> 搜狐高清 <font color="#dddddd">|</font> 黄色小说 <font color="#dddddd">|</font> 张筱雨 <font color="#dddddd">|</font> 广州地铁 <font color="#dddddd">|</font> 网易邮箱 <font color="#dddddd">|</font> 奇艺 <font color="#dddddd">|</font> 成都公交 <font color="#dddddd">|</font> 黄色网站 <font color="#dddddd">|</font> 七小罗汉 <font color="#dddddd">|</font> 有啊 <font color="#dddddd">|</font> 性吧 <font color="#dddddd">|</font>  ...</td><td align="center" bgcolor="#eef3fb" width="80"><a href="http://www.kongruan.com/sitekey/?dm=163.com" style="font-size: 14px; color: rgb(51, 102, 0);" target="_blank">更多</a></td></tr>
+</tbody></table>
+</td></tr>
+<tr><td bgcolor="#f9f9f9">
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr height="80"><td align="center" bgcolor="#eef3fb" width="70"><span style="font-size:14px; color:#336600; ">谷歌<br>关键词</span></td><td align="left" bgcolor="#f9f9f9">&nbsp;163邮箱 <font color="#dddddd">|</font> 网易 <font color="#dddddd">|</font> 网易邮箱 <font color="#dddddd">|</font> 中联重科 <font color="#dddddd">|</font> 黑莓手机 <font color="#dddddd">|</font> 三一重工 <font color="#dddddd">|</font> 北京卫视 <font color="#dddddd">|</font> 网易新闻 <font color="#dddddd">|</font> 中国国航 <font color="#dddddd">|</font> 獐子岛 <font color="#dddddd">|</font> 易网 <font color="#dddddd">|</font> 盐湖钾肥 <font color="#dddddd">|</font> 西飞国际 <font color="#dddddd">|</font> 安泰科技 <font color="#dddddd">|</font> 大恒科技 <font color="#dddddd">|</font> 中恒集团 <font color="#dddddd">|</font> 中国重汽 <font color="#dddddd">|</font> 华发股份 <font color="#dddddd">|</font> 万达影讯 <font color="#dddddd">|</font> 大龙地产 <font color="#dddddd">|</font>  ...</td><td align="center" bgcolor="#eef3fb" width="80"><a href="http://www.kongruan.com/googlekey/?dm=163.com" style="font-size: 14px; color: rgb(51, 102, 0);" target="_blank">更多</a></td></tr>
+</tbody></table>
+</td></tr>
+<tr><td bgcolor="#f9f9f9"><div id="sldiv" style="margin:8px 0px 6px 0px "><font color="#990000">&nbsp; 友情链接检测</font></div>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr height="80"><td align="center" bgcolor="#eef3fb" width="70"><span style="font-size:14px; color:#336600; ">对外链接</span></td><td align="left" bgcolor="#f9f9f9" width="450">entry.mail.126.com
+ &nbsp; reg.vip.126.com &nbsp; entry.yeah.net &nbsp; reg.mail.188.com 
+&nbsp; www.youdao.com &nbsp; image.youdao.com &nbsp; news.youdao.com 
+&nbsp; gouwu.youdao.com &nbsp; mp3.youdao.com &nbsp; video.youdao.com 
+&nbsp; dict.youdao.com &nbsp; fanyi.youdao.com &nbsp; ...</td><td align="center" bgcolor="#eef3fb" width="80"><a href="http://link.kongruan.com/?dm=www.163.com" style="font-size: 14px; color: rgb(51, 102, 0);" target="_blank">友情链接<br>检测</a></td></tr>
+</tbody></table>
+</td></tr>
+<tr><td bgcolor="#f9f9f9"><div id="sldiv" style="margin:8px 0px 6px 0px "><font color="#990000">&nbsp; 网站外链</font></div>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr height="80"><td align="center" bgcolor="#eef3fb" width="70"><span style="font-size:14px; color:#336600; ">外链链入</span></td><td align="left" bgcolor="#f9f9f9" width="450">www.alimama.com<font color="#ff6600">[8]</font> &nbsp; www.chinanews.com.cn<font color="#ff6600">[8]</font> &nbsp; www.itrust.org.cn<font color="#ff6600">[8]</font> &nbsp; www.zhcw.com<font color="#ff6600">[8]</font> &nbsp; www.ce.cn<font color="#ff6600">[8]</font> &nbsp; www.chinadaily.com.cn<font color="#ff6600">[7]</font> &nbsp; www.12321.cn<font color="#ff6600">[7]</font> &nbsp; taoke.alimama.com<font color="#ff6600">[7]</font> &nbsp; pindao.huoban.taobao.com<font color="#ff6600">[7]</font> &nbsp; site.baidu.com<font color="#ff6600">[7]</font> &nbsp; tech.163.com<font color="#ff6600">[7]</font> &nbsp; www.chinataiwan.org<font color="#ff6600">[7]</font> &nbsp; www.youdao.com<font color="#ff6600">[7]</font> &nbsp; www.cyol.net<font color="#ff6600">[7]</font> &nbsp; reg.163.com<font color="#ff6600">[7]</font> &nbsp;  <font color="#3366ff">......</font></td><td align="center" bgcolor="#eef3fb" width="80"><a href="http://www.kongruan.com/kr/?dm=www.163.com" style="font-size: 14px; color: rgb(51, 102, 0);" target="_blank">外部链接<br>分析</a></td></tr>
+</tbody></table>
+</td></tr>
+<tr height="60"><td bgcolor="#f9f9f9"><div id="sldiv" style="margin:8px 0px 6px 0px "><font color="#990000">&nbsp; 网站速度测试</font></div>
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="603">
+<tbody><tr align="center" height="30"><td bgcolor="#eef3fb" width="120"><font color="#336600">莆田电信</font></td><td bgcolor="#eef3fb" width="120"><font color="#336600">浙江电信</font></td><td bgcolor="#eef3fb" width="120"><font color="#336600">山东网通</font></td><td bgcolor="#eef3fb" width="120"><font color="#336600">香港访问速度</font></td><td bgcolor="#eef3fb" width="120"><font color="#336600">美国AZ</font></td></tr>
+<tr align="center" height="30"><td bgcolor="#ffffff" width="120"><img src="jdbc_files/sp5.gif"></td><td bgcolor="#ffffff" width="120"><img src="jdbc_files/sp5.gif"></td><td bgcolor="#ffffff" width="120"><img src="jdbc_files/sp2.gif"></td><td bgcolor="#ffffff" width="120"><img src="jdbc_files/sp5.gif"></td><td bgcolor="#ffffff" width="120"><img src="jdbc_files/sp3.gif"></td></tr><tr align="center" height="30"><td bgcolor="#f9f9f9" width="120">≈232KB/s</td><td bgcolor="#f9f9f9" width="120">≈224KB/s</td><td bgcolor="#f9f9f9" width="120">≈30KB/s</td><td bgcolor="#f9f9f9" width="120">≈205KB/s</td><td bgcolor="#f9f9f9" width="120">≈57KB/s</td></tr></tbody></table>
+</td></tr>
+</tbody></table>
+<br><span style="color:#999; ">随着我们对数据的挖掘整理，还将陆续推出更多实用的站长工具，觉得好用的话记得添加到收藏夹哦!</span><br>
+<br>更多工具：<a href="http://www.kongruan.com/k_changwei/">长尾关键词</a> &nbsp;|&nbsp; <a href="http://www.kongruan.com/k_baidukey/">百度关键词搜索量</a> &nbsp;|&nbsp; <a href="http://www.kongruan.com/k_youhua/">网站关键词优化</a> &nbsp;|&nbsp; <a href="http://www.kongruan.com/k_paiming/">关键词排名查询</a> &nbsp;|&nbsp; <a href="http://www.kongruan.com/k_midu/">关键词密度</a>
+</div>
+<div id="c14"><div class="arw"></div> 最新推荐广告图片</div>
+<div id="c15"></div>
+</div><!-- rd1 ! -->
+<b class="rb"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b></div>
+<div id="m3"></div>
+</div><!-- main ! -->
+<!-- 边框结束 -->
+</div><!--all --></div>
+<div id="pgw">
+<b class="mrt"><b class="mr1"></b><b class="mr2"></b><b class="mr3"></b><b class="mr4"></b></b>
+<div id="mr">
+<div id="top">
+<div id="logo"><img src="jdbc_files/logo.gif" height="60" width="125"></div><div id="bn"><ul><li><a href="http://www.web521.com/">首页</a><br><div class="tmm"><a href="http://www.web521.com/asp/">ASP</a></div></li><li><a href="http://www.web521.com/asp.net/">ASP.NET</a><br><div class="tmm"><a href="http://www.web521.com/css/">CSS</a></div></li><li><a href="http://www.web521.com/jsp/">JSP</a><br><div class="tmm"><a href="http://www.web521.com/Javascript/">Javascript</a></div></li><li><a href="http://www.web521.com/MsSQL/">MsSQL</a><br><div class="tmm"><a href="http://www.web521.com/MySQL/">MySQL</a></div></li><li><a href="http://www.web521.com/php/">php</a><br><div class="tmm"><a href="http://www.web521.com/web/">网页</a></div></li><li><a href="http://www.web521.com/XML/">XML</a><br><div class="tmm"><a href="http://soft.web521.com/">培训</a></div></li><li><a href="http://soft.web521.com/U66/">Linux</a><br><div class="tmm"><a href="http://soft.web521.com/U619/">系统</a></div></li><li><a href="http://soft.web521.com/U620/">办公</a><br><div class="tmm"><a href="http://www.web521.com/tq/">问答</a></div></li><li><a href="http://fwq.web521.com/security/">安全</a><br><div class="tmm"><a href="http://fwq.web521.com/">服务器</a></div></li></ul></div>
+<div id="menu"><a href="http://www.web521.com/webdesign/">网页设计</a> &nbsp; <a href="http://www.web521.com/csharp/">C#</a> &nbsp;|&nbsp; <a href="http://www.web521.com/service/">服务</a> &nbsp; <a href="http://www.web521.com/FreeBSD/">FreeBSD</a> &nbsp; <a href="http://www.web521.com/database/">数据库</a> &nbsp; <a href="http://fwq.web521.com/switch/">交换机</a> &nbsp; <a href="http://soft.web521.com/stock/">编程问答</a> &nbsp; <a href="http://soft.web521.com/U613/">托福</a> &nbsp; <a href="http://fwq.web521.com/host/">技术专栏</a> &nbsp;|&nbsp; <a href="http://fwq.web521.com/software/net/">网络</a> &nbsp; <a href="http://soft.web521.com/soft/">编程</a> &nbsp; <a href="http://fwq.web521.com/software/os/">操作系统</a> &nbsp; <a href="http://fwq.web521.com/software/ps/">Photoshop</a> &nbsp;|&nbsp; <a href="http://fwq.web521.com/software/web/" target="_blank">网页制作</a></div>
+</div><!-- top -->
+<div id="info">当前位置：首页 &gt;</div>
+<div id="gd_tl"><div style="float:left;"><a href="http://www.kongruan.com/xgkey/" target="_blank"><img src="jdbc_files/k_11.gif" width="248"></a></div>
+<div style="float:left;"><a href="http://www.kongruan.com/sitekey/" target="_blank"><img src="jdbc_files/k_12.gif" width="248"></a></div>
+<div style="float:left;"><a href="http://www.kongruan.com/baidu/" target="_blank"><img src="jdbc_files/k_13.gif" width="248"></a></div>
+<div style="float:left;"><a href="http://www.kongruan.com/google/" target="_blank"><img src="jdbc_files/k_14.gif" width="248"></a></div>
+<div style="float:left;"><a href="http://www.kongruan.com/bdr/" target="_blank"><img src="jdbc_files/k_15.gif" width="248"></a></div>
+<div style="float:left;"><a href="http://www.kongruan.com/gdr/" target="_blank"><img src="jdbc_files/k_16.gif" width="248"></a></div>
+ </div>
+<div id="main">
+<div id="tldh"><ul><li><a href="http://soft.web521.com/Access/">Access</a></li><li><a href="http://soft.web521.com/asp.net/">asp.net</a></li><li><a href="http://soft.web521.com/csharp/">C#</a></li><li><a href="http://soft.web521.com/CSS/">CSS</a></li><li><a href="http://soft.web521.com/delphi/">delphi</a></li><li><a href="http://soft.web521.com/FoxPro/">FoxPro</a></li><li><a href="http://soft.web521.com/html/">html</a></li><li><a href="http://soft.web521.com/Ieregedit/">注册表</a></li><li><a href="http://soft.web521.com/Java/">Java</a></li><li><a href="http://soft.web521.com/Javascript/">Js</a></li><li><a href="http://soft.web521.com/jsp/">jsp</a></li><li><a href="http://soft.web521.com/MsSQL/">MsSQL</a></li><li><a href="http://soft.web521.com/MySQL/">MySQL</a></li><li><a href="http://soft.web521.com/Oracle/">Oracle</a></li><li><a href="http://soft.web521.com/php/">php</a></li><li><a href="http://soft.web521.com/vc/">vc++</a></li><li><a href="http://soft.web521.com/web/">网页</a></li><li><a href="http://www.kongruan.com/">站长工具</a></li></ul> </div>
+<div id="a_l"><div id="a_l_top"><table border="0" width="540"><tbody><tr height="23"><td align="left" width="120"><div id="a_star"></div> <a href="javascript:window.external.addFavorite('http://soft.web521.com/webdesign/533668/T626230.shtml','%E4%B8%BA%E4%BD%BF%E7%94%A8%20DB2%20UDB%20%E9%85%8D%E7%BD%AE%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8');">添加到收藏夹</a></td><td width="120"><div id="a_list"></div> <a href="http://soft.web521.com/webdesign/">返回目录页</a></td><td><div id="a_next"></div> 上一篇：<a href="http://soft.web521.com/webdesign/533668/T626231.shtml" title="到 Oracle 和 Sybase 的 Q 复制快速入门">到 Oracle 和 Sybas...</a></td></tr></tbody></table></div><h1>为使用 DB2 UDB 配置第三方应用服务器</h1><script type="text/javascript"><!--
+google_ad_client = "pub-9346728666813782";
+/* 300x250, 创建于 09-8-22 */
+google_ad_slot = "9327645033";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="jdbc_files/show_ads.js">
+</script><ins style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px"><ins id="aswift_0_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px"><iframe allowtransparency="true" hspace="0" marginwidth="0" marginheight="0" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){i+='.call';setTimeout(h,0)}else if(h.match){i+='.nav';w.location.replace(h)}s.log&amp;&amp;s.log.push(i)}" vspace="0" id="aswift_0" name="aswift_0" style="left: 0pt; position: absolute; top: 0pt;" frameborder="0" height="250" scrolling="no" width="300"></iframe></ins></ins> <table border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr align="left" valign="top">
+            <td>
+            <p>级别: 高级</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><name></name>Deepak Vohra<br>
+Web 开发人员, Independent Consultant<br>
+2005 年 6 月 16 日</p>
+<blockquote>本文将向您展示如何为使用 IBM DB2 Universal Database（UDB） 
+配置第三方应用服务器：WebLogic、JBoss 和 JDeveloper（带有嵌入式 OC4J 服务器）。由于其可伸缩性、特性以及易于在 
+Linux、Unix 或 Windows 上使用，DB2 UDB 
+常常与这些不同的应用服务器一起使用，这样，只需要少量工作就可以创建健壮的数据库应用程序。</blockquote>
+<p><span class="atitle2">简介</span><br>
+通过为数据库配置应用服务器/IDE，在 WebLogic 应用服务器、JBoss 应用服务器或 JDeveloper IDE 上创建 JDBC 
+连接，并在使用应用服务器开发的 J2EE 应用程序中使用这个到 DB2 数据库的连接。本文将向您展示如何从 WebLogic 和 JBoss 
+服务器配置 JDBC 连接，而且还将介绍 JDeveloper IDE。</p>
+<p>JBoss 是一个开源应用服务器，在默认情况下，使用 Hypersonic 数据库来配置它。因此，为了使之和 DB2 UDB 一起使用，需要为 JBoss 应用服务器配置 DB2。然而，WebLogic 和 JDeveloper 并不使用默认的数据库配置。</p>
+<p><span class="atitle2">初始安装</span><br>
+首先，安装应用服务器和 IDE，用它们来配置 DB2 数据库连接。安装 BEA 的 WebLogic 8.1 应用服务器和 JBoss 4.0 应用服务器。将 <code><font face="新宋体">&lt;JBoss&gt;/bin</font></code> 添加至 <code><font face="新宋体">Path</font></code> 变量中（<code><font face="新宋体">&lt;JBoss&gt;</font></code> 是安装 JBoss 4.0 的目录）。接着，安装 Oracle 的 JDeveloper 10g。最后，安装 DB2 UDB，创建一个 DB2 数据库实例（命名为 DB2）。在 <code><font face="新宋体">C:/Program Files/IBM/SQLLIB/java</font></code> 目录中可以获得 DB2 JDBC 驱动程序 <code><font face="新宋体">db2java.zip</font></code> 文件。</p>
+<p><span class="atitle2">用 WebLogic 配置 DB2 UDB</span><br>
+BEA WebLogic Server 8.1 
+是一个应用服务器，用于开发、集成、安全性保护和管理面向服务的分布式应用程序。本小节将解释如何配置使用 DB2 数据库的 WebLogic 8.1
+ 服务器。您将在 WebLogic 服务器中用 DB2 
+数据库来配置一个连接池，这是一组到数据库的连接。客户/服务器（Client/Server）应用程序通过一个包含了 JNDI 
+绑定的数据源（DataSource）从连接池中获得一个连接。需要 DB2 驱动程序类来配置与 DB2 数据库的连接。将 <code><font face="新宋体">db2java.zip</font></code> 添加到 <code><font face="新宋体">&lt;BEA&gt;\user_projects\domains\mydomain\startWebLogic</font></code> 脚本中的 <code><font face="新宋体">Classpath</font></code> 变量中。（<code><font face="新宋体">&lt;BEA&gt;</font></code> 是安装 WebLogic 8.1 的目录。）现在，启动 WebLogic 服务器，并通过 URL <code><font face="新宋体">http://localhost:7001/console</font></code> 访问 WebLogic 服务器 Administration Console。</p>
+<p>WebLogic 服务器 Administration Console 允许您配置与 DB2 数据库的 JDBC 连接（参见图 1）。在导航框架中选择 <code><font face="新宋体">Services&gt;JDBC</font></code> 节点，右击 <code><font face="新宋体">Connection Pools</font></code> 节点，并选择 <code><font face="新宋体">Configure a New JDBC Connection Pool</font></code>。</p>
+<p><b>图 1. 配置新的 JDBC 连接池</b><br>
+<img alt="配置新的 JDBC 连接池" src="jdbc_files/ConnPool.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="432" width="600"></p>
+<p>在 <code><font face="新宋体">Configure a JDBC Connection Pool</font></code> 框架中，进入 <code><font face="新宋体">Database Type</font></code> 列表并选择 <code><font face="新宋体">DB2</font></code>。然后从 <code><font face="新宋体">Database Driver</font></code> 字段中选择 <code><font face="新宋体">IBMs DB2 Driver (Type 2)</font></code>。这一节中的 JDBC 连接与 DB2 数据库的 JDBC 连接都是用 DB2 Type 2 驱动程序配置的，但您可以使用列出的其他任何驱动程序。还应该指定 startWebLogic 脚本中的 Classpath 变量所使用的驱动程序。参见图 2。</p>
+<p><b>图 2. 数据库驱动程序</b><br>
+<img alt="数据库驱动程序" src="jdbc_files/JDBCDriver.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="432" width="600"></p>
+<p>接着，在 <code><font face="新宋体">Define Connection Properties</font></code> 框架中指定数据库名、用户名和密码。数据库名（Database Name）是在 DB2 数据库中用 <code><font face="新宋体">CREATE DATABASE</font></code> 命令创建的数据库的名称。<code><font face="新宋体">Test Database Connection</font></code> 框架显示了驱动程序类名和 URL。单击 <code><font face="新宋体">Test Driver Configuration</font></code> 按钮，测试与 DB2 数据库之间的 DB2 驱动程序配置。如果建立了到 DB2 数据库的连接，您将看到一条 <code><font face="新宋体">Connection successful</font></code> 消息。如果要在一个域内配置多台服务器，可以选择一台将部署连接池的服务器。单击 <code><font face="新宋体">Create and Deploy</font></code> 按钮来创建和部署连接池（参见图 3）。</p>
+<p><b>图 3. 创建和部署</b><br>
+<img alt="创建和部署" src="jdbc_files/CreateDeploy.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="449" width="600"></p>
+<p>现在配置了一个连接池，并在导航框架中为该连接池添加了一个节点。您可以通过在导航框架中选择连接节点来修改连接池的设置（参见图 
+4）。某些连接池设置包含了初始容量和最大容量：Initial Capacity 是连接池中的初始连接数目；MaxCapacity 
+是数据库中的最大连接数目。</p>
+<p><b>图 4. 连接池节点</b><br>
+<img alt="连接池节点" src="jdbc_files/ConnPoolNode.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="449" width="600"></p>
+<p>您还可以通过连接池配置数据源（Data Source）。数据源是一个 Java 命名和目录接口（Java Naming and 
+Directory Interface，JNDI）对象，用于提供到连接池的访问。要配置数据源，可以右击 Administration 
+Console 中的 <code><font face="新宋体">JDBC&gt;Data Sources</font></code> 节点，并选择 <code><font face="新宋体">Configure a new JDBCTxData Source</font></code>。在所显示的 Configuration 框架中，为该数据源指定 <code><font face="新宋体">JNDI 名</font></code>。在 <code><font face="新宋体">Connect To Connection Pool</font></code> 框架中，选择用 DB2 数据库配置的 JDBC 连接池。然后，该数据源就可以连接到所选择的连接池了。接着，在 <code><font face="新宋体">Target the Data Source</font></code> 框架中，为该数据源选择目标服务器。然后，该数据源就可以部署在选定的服务器上了，同时它还在 Administration Console <code><font face="新宋体">JDBC&gt;Data Sources</font></code> 节点中为这台服务器添加了一个节点。现在，您已经用 WebLogic 成功配置了 DB2 数据库。</p>
+<p><span class="atitle2">用 JBoss 配置 DB2 UDB</span><br>
+JBoss 是一个开源应用服务器。要为 DB2 数据库配置 JBoss，则首先必须将 <code><font face="新宋体">db2java.zip</font></code> 复制到 <code><font face="新宋体">&lt;JBoss&gt;/server/default/lib</font></code> 目录中，向 <code><font face="新宋体">CLASSPATH</font></code> 添加 DB2 数据库驱动程序类。（<code><font face="新宋体">&lt;JBoss&gt;</font></code> 是安装 JBoss 4.0 服务器的目录。）为了配置使用 DB2 数据源的 JBoss 4.0 应用服务器，需要要将 <code><font face="新宋体">&lt;JBoss&gt;/docs/examples/jca/db2-ds.xml</font></code> 数据源文件复制到 <code><font face="新宋体">&lt;JBoss&gt;/server/default/deploy</font></code> 目录中。通过将 <code><font face="新宋体">&lt;driver-class/&gt;</font></code> 设置为 <code><font face="新宋体">COM.ibm.db2.jdbc.app.DB2Driver</font></code> 并将 <code><font face="新宋体">&lt;connection-url/&gt; </font></code>设置为 <code><font face="新宋体">jdbc:db2:&lt;database&gt;</font></code>，来修改 <code><font face="新宋体">db2-ds.xml</font></code> 配置文件（变量 <code><font face="新宋体">&lt;database&gt;</font></code> 是 DB2 数据库名）。接着，在 <code><font face="新宋体">db2-ds.xml</font></code> 中指定 <code><font face="新宋体">user-name</font></code> 和 <code><font face="新宋体">password</font></code>。<code><font face="新宋体">min-pool-size</font></code> 元素指定连接池中的最小连接数目。参见清单 1。</p>
+<b>清单 1. db2-ds.xml</b><br>
+<table bgcolor="#cccccc" border="1" cellpadding="5" cellspacing="0" width="25">
+    <tbody>
+        <tr>
+            <td>
+            <pre><code>
+            &lt;?xml version="1.0" encoding="UTF-8"?&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">&lt;datasources&gt;  <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> &lt;local-tx-datasource&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;jndi-name&gt;DB2DS&lt;/jndi-name&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;connection-url&gt;jdbc:db2:DB2&lt;/connection-url&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;driver-class&gt;COM.ibm.db2.jdbc.app.DB2Driver&lt;/driver-class&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;user-name&gt;&lt;/user-name&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;password&gt;&lt;/password&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;min-pool-size&gt;5&lt;/min-pool-size&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;metadata&gt;   <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   &lt;type-mapping&gt;DB2&lt;/type-mapping&gt;    <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;/metadata&gt;  <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> &lt;/local-tx-datasource&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">&lt;/datasources&gt;
+            </code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>接着，通过修改 <code><font face="新宋体">&lt;JBoss&gt;\server\default\conf\standardjaws.xml</font></code>（或 <code><font face="新宋体">jaws.xml</font></code>）配置文件来设置 <code><font face="新宋体">&lt;datasource&gt;</font></code> 和 <code><font face="新宋体">&lt;type-mapping&gt;</font></code>。只有使用 CMP 1.1 entity Enterprise JavaBean（EJB）时才需要修改 <code><font face="新宋体">standardjaws.xml/jaws.xml</font></code>。现在，将 <code><font face="新宋体">type-mapping</font></code> 元素值设置为 DB2，这是用于 DB2 数据库的类型映射名。参见清单 2。</p>
+<b>清单 2. standardjaws.xml</b><br>
+<table bgcolor="#cccccc" border="1" cellpadding="5" cellspacing="0" width="25">
+    <tbody>
+        <tr>
+            <td>
+            <pre><code>
+            &lt;jaws&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;datasource&gt;java:/DB2DS&lt;/datasource&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;type-mapping&gt;DB2&lt;/type-mapping&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">&lt;/jaws&gt;
+            </code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>修改 <code><font face="新宋体">&lt;JBoss&gt;\server\default\confstandardjbosscmp-jdbc.xml</font></code>（或 <code><font face="新宋体">jbosscmp-jdbc.xml</font></code>）配置文件，以设置 <code><font face="新宋体">&lt;datasource&gt;</font></code> 和 <code><font face="新宋体">&lt;datasource-mapping&gt;</font></code>。<code><font face="新宋体">datasource</font></code> 元素在 DB2 数据库中为 JDBC 配置指定数据源的 JNDI 名称，即 <code><font face="新宋体">java:/DB2DS</font></code>。将 <code><font face="新宋体">datasource-mapping</font></code> 值设置为用于 DB2 数据库的类型映射名；该类型映射是在 <code><font face="新宋体">standardjbosscmp-jdbc.xml/jbosscmp-jdbc.xml</font></code> 配置文件中预先定义的（参见清单 3）。对于 DB2 数据库，该类型映射名就是 DB2。</p>
+<b>清单 3. standardjbosscmp-jdbc.xml</b><br>
+<table bgcolor="#cccccc" border="1" cellpadding="5" cellspacing="0" width="25">
+    <tbody>
+        <tr>
+            <td>
+            <pre><code>
+            &lt;jbosscmp-jdbc&gt;  <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> &lt;defaults&gt;  <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;datasource&gt;java:/DB2DS&lt;/datasource&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;datasource-mapping&gt;DB2&lt;/datasource-mapping&gt;   <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> &lt;/defaults&gt;<br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">&lt;/jbosscmp-jdbc&gt;
+            </code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>从 JBoss 服务器登录到 DB2 数据库需要 <font face="新宋体"><code>application-policy</code><code>DB2DbRealm</code></font>。将 <code><font face="新宋体">&lt;application-policy/&gt;</font></code> 元素添加到 <code><font face="新宋体">&lt;JBoss&gt;\server\default\conf\login-config.xml</font></code> 中（参见清单 4）。现在，您已经使用 JBoss 配置了 DB2 数据库。</p>
+<b>清单 4. login-config.xml</b><br>
+<table bgcolor="#cccccc" border="1" cellpadding="5" cellspacing="0" width="25">
+    <tbody>
+        <tr>
+            <td>
+            <pre><code>
+            &lt;application-policy name = "DB2DbRealm"&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  &lt;authentication&gt;   <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    &lt;login-module code ="org.jboss.resource.security.ConfiguredIdentityLoginModule"
+            <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">          flag = "required"&gt;    <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      &lt;module-option name =  "principal"&gt;&lt;/module-option&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      &lt;module-option name =  "userName"&gt;&lt;/module-option&gt;    <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      &lt;module-option name =  "password"&gt;&lt;/module-option&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      &lt;module-option name ="managedConnectionFactoryName"&gt;jboss.jca:service=LocalTxCM,name=DB2DS
+            <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      &lt;/module-option&gt;   <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    &lt;/login-module&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   &lt;/authentication&gt; <br xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">&lt;/application-policy&gt;
+            </code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><span class="atitle2">用 JDeveloper 配置 DB2 UDB</span><br>
+Oracle JDeveloper 是一个集成的开发环境，用于建模、开发、调试、优化和部署 Java 应用程序和 Web 
+服务。这一节将解释如何配置使用 DB2 数据库的 JDeveloper 10g。首先，启动 JDeveloper 并检查其控制台（参见图 5）。</p>
+<p><b>图 5. JDeveloper 10g 控制台</b><br>
+<img alt="JDeveloper 10g 控制台" src="jdbc_files/JDevConsole.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="450" width="600"></p>
+<p>类路径（Classpath）中必须包含 DB2 驱动程序类，因此需要创建新的库，并将这个库添加到 <code><font face="新宋体">Default Project Properties</font></code> 中。选择 JDeveloper Console 中的 <code><font face="新宋体">Tools&gt;Default Project Properties</font></code>，然后在 <code><font face="新宋体">Default Project Properties</font></code> 框架的导航框架中选择 <code><font face="新宋体">Profiles&gt;Libraries</font></code> 节点。单击 <code><font face="新宋体">New</font></code> 按钮，为 DB2 驱动程序类创建新的库。</p>
+<p>现在，为该库指定库名（Library Name）、位置（Location）和类路径（Classpath）（确保 Classpathe 字段中包含 <code><font face="新宋体">db2java.zip</font></code> 文件）。用于 DB2 数据库的 JDBC 驱动程序类放在 <code><font face="新宋体">db2java.zip</font></code> 文件中，它向 Selected Libraries 框添加了一个新的库。参见图 6。</p>
+<p><b>图 6. 选择库</b><br>
+<img alt="选择库" src="jdbc_files/DB2Lib.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="429" width="600"></p>
+<p>为了创建 JDBC 连接，需要选择 <code><font face="新宋体">Connections-Navigator</font></code> 选项卡（参见图 7）。选择 <code><font face="新宋体">Connections&gt;Database</font></code> 节点，然后右击 <code><font face="新宋体">Database</font></code> 节点并选择 <code><font face="新宋体">New Database Connection</font></code>。</p>
+<p><b>图 7. Database&gt;New database connection</b><br>
+<img alt="Database&gt;New database connection" src="jdbc_files/DbConnection.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="450" width="600"></p>
+<p>在 <code><font face="新宋体">Type</font></code> 框架中，指定连接名（参见图 8），将 <code><font face="新宋体">Connection Type</font></code> 设置为 <code><font face="新宋体">Third Party JDBC Driver</font></code>，并单击 <code><font face="新宋体">Next</font></code> 按钮。</p>
+<p><b>图 8. 类型框架</b><br>
+<img alt="类型框架" src="jdbc_files/Type.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="400" width="600"></p>
+<p>接着，在 <code><font face="新宋体">Authentication</font></code> 框架中指定 <code><font face="新宋体">Username</font></code> 和 <code><font face="新宋体">Password</font></code>，并单击 <code><font face="新宋体">Next</font></code> 按钮。在 <code><font face="新宋体">Connection</font></code> 框架中，单击 <code><font face="新宋体">New</font></code> 按钮来添加 <code><font face="新宋体">Driver Class</font></code>，然后在 <code><font face="新宋体">Register JDBC Driver</font></code> 框架中将 <code><font face="新宋体">Driver Class</font></code> 指定为 <code><font face="新宋体">COM.ibm.db2.jdbc.app.DB2Driver</font></code>，并将 <code><font face="新宋体">Library</font></code> 指定为 <code><font face="新宋体">DB2</font></code>（这是在 <code><font face="新宋体">Tools&gt;Default Project Properties</font></code> 中配置的）。在 Connection 框架的 <code><font face="新宋体">URL </font></code>字段中，将连接 URL 指定为 <code><font face="新宋体">jdbc:db2:DB2</font></code>，并单击 Next 按钮。参见 图 9。</p>
+<p><b>图 9. 连接 URL</b><br>
+<img alt="连接 URL" src="jdbc_files/ConnectionURL.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="400" width="600"></p>
+<p>现在，在 <code><font face="新宋体">Test</font></code> 框架中，单击 <code><font face="新宋体">Test Connection</font></code> 按钮来测试与 DB2 数据库的 JDBC 连接。如果建立了到 DB2 数据库的连接，则会显示消息 Success!。单击 <code><font face="新宋体">Finish</font></code> 按钮来完成 JDBC 连接的配置。现在，Connection-Navigator 框架中添加了 JDBC 连接的一个节点。参见图 10。</p>
+<p><b>图 10. 连接池节点</b><br>
+<img alt="连接池节点" src="jdbc_files/ConnectionNode.jpg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" height="450" width="600"></p>
+<p>此外，Connections Navigator 中所配置的连接可以作为一个数据源用于 JSP 应用程序。例如，JDBC 连接 <code><font face="新宋体">DBConnection1</font></code> 可以用作数据源 <code><font face="新宋体">jdbc/DBConnection1DS</font></code>。如下列代码所解释的，可以获得来自数据源的连接：</p>
+<p>
+</p><table bgcolor="#cccccc" border="1" cellpadding="5" cellspacing="0" width="100%">
+    <tbody>
+        <tr>
+            <td>
+            <pre><code>
+            InitialContext initialContext = new InitialContext();
+            javax.sql.DataSource ds = (javax.sql.DataSource)
+            initialContext.lookup("java:comp/env/jdbc/DBConnection1DS");
+            java.sql.Connection conn = ds.getConnection();</code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
+<p><span class="atitle2">结束语</span><br>
+请记住，用 JDeveloper IDE、WebLogic 应用服务器或 JBoss 应用服务器开发的数据库应用程序并不仅限于 Oracle 
+数据库或 Hypersonic 数据库。对数据库应用程序使用 DB2 UDB 的好处就是：可以通过配置第三方应用服务器和 DB2 
+UDB，从它们那里访问数据库应用程序。</p><br>最热门文章推荐：<br> &gt;· <a href="http://soft.web521.com/server/K0714021.shtml">linux 文件系统</a><br> &gt;· <a href="http://soft.web521.com/server/K0714026.shtml">linux tar</a><br> &gt;· <a href="http://soft.web521.com/server/K0714033.shtml">如何安装linux</a><br> &gt;· <a href="http://soft.web521.com/server/K0714038.shtml">如何优化系统</a><br> &gt;· <a href="http://soft.web521.com/server/K0714044.shtml">2003系统优化</a><br> &gt;· <a href="http://soft.web521.com/server/K0714049.shtml">xp系统优化设置</a><br><div id="a_l_k"></div><div id="a_l_b">下一篇：<a href="http://soft.web521.com/webdesign/533668/T626229.shtml"> UNIX 以使用 OpenSSH</a></div></div>
+<div id="a_r"><div id="a_r_tl">&nbsp;↓相关文章：</div>
+<ul><li>· <a href="http://soft.web521.com/webdesign/533668/T626229.shtml"> UNIX 以使用 OpenSSH</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626228.shtml">Enterprise Replication 环境中的模式演变</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626227.shtml">Dynamic Server Enterprise Replication模板</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626226.shtml">对 Enterprise Replication 使用主复制</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626225.shtml">数据联邦技术: 第 1 部分：设计和配置</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626224.shtml">DB2 基础: 结构化数据类型和类型化表简介</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626223.shtml">将 DB2 UDB 数据库从非分区环境迁移到分区环境</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626222.shtml">Susan Malaika 讨论 XML 标准和网格计算</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626221.shtml">Globus工具包和OGSA-DAI存取DB2通用数据库</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626220.shtml">网格揭密</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626219.shtml">自动化的将来</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626218.shtml">SMART 程度更高的 DB2</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626217.shtml">DB2 UDB Stinger 与自主计算</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626216.shtml"> 工程实施及项目管理 </a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626215.shtml">（Query Patroller）V7.2 规划资源需求</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626214.shtml">决策支持系统（DSS）应用程序处理</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626213.shtml">IBM Red Brick Warehouse </a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626212.shtml">初始调优和设计方面的考虑</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626211.shtml">DB2 for z/OS: DB2 数据库设计</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626210.shtml">灵活有效的数据仓库解决方案: 第 1 部分</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626209.shtml">DB2 认证 — 认证须知</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626208.shtml">DB2 version 8 认证 — 认证须知</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626207.shtml"> 培养商业智能技能</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626206.shtml">IBM DB2 Universal Database V8.1</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626205.shtml">程序转换</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626204.shtml">使用 Borland C#Builder</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626203.shtml">从 Oracle 移植递归 SQL 到 DB2 UDB</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626202.shtml">在 DB2 通用数据库中实现会话间警告</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626201.shtml">使用 IBM DB2 Migration Toolkit</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626200.shtml">生产到开发: 转移数据库</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626199.shtml">利用您的 Oracle 9i </a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626198.shtml">在 DB2 Universal Database 中实现管道</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626197.shtml"> 用 DB2 例程来简化迁移 </a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626196.shtml">迁移 DB2 V7 数据库到 DB2 UDB Version 8.1</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626195.shtml">开发人员和管理员的路线图</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626194.shtml">升级到 Informix Dynamic Server 9.40FC1</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626193.shtml">从 Microsoft SQL Server 2000 移植</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626192.shtml">利用 UDF 轻松迁移</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626191.shtml">将 Informix ESQL/C 应用程序迁移到 DB2</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626190.shtml">从非分区环境迁移到分区环境</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626189.shtml">DB2 V8 连通性快捷表</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626188.shtml">设置DB UDB版本8中的混合字节字符（MBCS)数据库</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626187.shtml">在 Windows 中用 GCC 编译 DB2 UDB 存储过程</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626186.shtml">DB2UniversalDatabase连通性快捷表第 2 部分</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626185.shtml">DB2 UDB 连通性快捷表 第 3 部分</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626184.shtml">监控和估计</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626183.shtml">DB2 UDB 连通性快捷表 第 4 部分</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626182.shtml">DB2 UDB 连通性快捷表: 第 5 部分</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626181.shtml">配置 IBM DB2 通用数据库以构建 SQL 过程</a></li><li>· <a href="http://soft.web521.com/webdesign/533668/T626180.shtml">如何在DB2上为AIX5L设置unixODBC</a></li></ul>
+</div><!-- a_r --> 
+</div>
+<div id="bottom"> </div>
+</div><b class="rb"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b></div>
+&#169; 2006-2008 <script type="text/javascript" src="jdbc_files/pbdct.js"></script><script language="javascript" src="jdbc_files/click.htm"></script><a href="http://countt.51yes.com/index.aspx?id=248752404" target="_blank"><img src="jdbc_files/count6.gif" alt="51YES网站统计系统" border="0" height="20" hspace="0" vspace="0" width="20"></a><iframe marginwidth="0" marginheight="0" hspace="0" vspace="0" src="jdbc_files/sa.htm" frameborder="0" height="0" scrolling="no" width="0"></iframe><script type="text/javascript" src="jdbc_files/c2.htm"></script><script type="text/javascript">var webownerId = 25769;var childid = '10000';var code_id = '12141759085716504156';</script><script type="text/javascript" src="jdbc_files/12141759085716504156.js"></script><script type="text/javascript" src="jdbc_files/float.js"></script><div id="youday_1_12141759085716504156" style="width: 256px; height: 152px; z-index: 1000; overflow: hidden; position: absolute; top: 2889px; left: 638px;">
+<div style="position: absolute; z-index: 1; left: 0px;">
+<a id="youday_1_12141759085716504156_url" href="http://www.miaoshass.com/?webownerId=25769&amp;serviceId=100024&amp;childid=10000&amp;gopage=0&amp;id=12141759085716504156&amp;productid=&amp;flag=0&amp;siteurl=http://soft.web521.com/webdesign/533668/T626230.shtml&amp;gourl=http%3A//soft.web521.com/soft/P62/A075250.shtml" target="_blank"><img id="youday_1_12141759085716504156_img" src="jdbc_files/201012141759673.gif" border="0"></a>
+</div>
+</div>
+ All Rights Reserved
+
+
+</div></div><div style="bottom: auto; left: 682px; right: auto; top: 432px; display: none;" class="translator-theme-default" id="translator-floating-panel"><div title="点击翻译" id="translator-floating-panel-button"></div></div></body></html>

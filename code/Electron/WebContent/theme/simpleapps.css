@@ -1,0 +1,76 @@
+@CHARSET "GB18030";
+
+.logbar
+{
+   background-image: url(/img/log_bg_03.gif);
+   background-repeat: repeat-y;
+   font: 1em "宋体",Arial,Times;
+}
+
+.indexbar
+{
+   background-image: url(/img/log_bg_03.gif);
+   background-repeat: repeat-y;
+   font: 1em "宋体",Arial,Times;
+   text-align:left;
+}
+
+#logform
+{
+    position:absolute;
+    left: 10%;
+    width: auto;
+    heigt: auto;
+    float:left;
+    margin:0 auto;
+    text-align:center;
+    background: #e3e3e3;
+}
+
+#regisform
+{
+   position:absolute;
+   left:40%;
+   top:70px;
+   width: 280px;
+   height: auto;
+   display: block;
+   background: #e3e3e3;
+}
+
+.warmesg
+{
+    clear: both;
+    background: #fff;
+}
+
+.showtable{
+text-align: center;
+border:1px solid #cccccc;
+border-collapse: collapse;/*是否合并边框*/
+table-layout : fixed;/**/
+width:100%;
+}
+.showtable th{
+border:1px solid #cccccc;
+text-align:center;
+background-color:#eeeeee;
+padding:10px;
+}
+.showtable td{
+border:1px solid #cccccc;
+text-align:left;
+padding:10px;
+}
+.showtable caption{
+border:1px solid #cccccc;
+text-align:center;
+padding:10px;
+}
+#showlist
+{
+  background:#ccffcc;
+  position:absolute;
+  top: 70px;
+  left:90px;
+}

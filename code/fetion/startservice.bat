@@ -1,0 +1,1 @@
+manage.py runserver 10.240.12.69:8080

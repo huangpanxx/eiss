@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="TSTDB201">
+    <development xsi:type="connections:rsc-live-connection" id="TSTDB201_dev" name="TSTDB201"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="D:\Program Files\IBM\IMShared\plugins\com.ibm.datatools.db2_2.1.102.v20100715_2051\driver\db2jcc4.jar;D:\Program Files\IBM\IMShared\plugins\com.ibm.datatools.db2_2.1.102.v20100715_2051\driver\db2jcc4_license_cisuz.jar" id="TSTDB201_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="TSTDB201" jndi-name="jdbc/TSTDB201" port-number="446" resource-reference-name="TSTDB201" server-name="202.115.7.252" sql-vendor-type="31" userid="CU083"/>
+  </connection>
+</connections:connections>

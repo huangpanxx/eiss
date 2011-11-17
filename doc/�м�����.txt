@@ -1,0 +1,15 @@
+bool Login(Account,password)		//用户、商家、管理员
+??bool login(phoneNnm,password)		//用户、商家、管理员	登录可以用ID、phone
+
+bool ModifyPhoneNum(ID,securityNum)		//用户、商家、管理员	修改该信息，ID、安全码必须
+
+bool ModifyPassword(ID,securityNum)
+
+list[] GetRecordListByID（ID） 		//用户：消费记录、电子发票、中奖
+	   	    			//管理员：用户、记录、电子发票、商家
+		    			//商家：	
+string UserRegister(phoneNum)		//注册（仅用户）
+string AgentRegister(businessLicense)	//商家注册
+string InsertRecord(agentID,userID,time,moneyNum,typeOf)	//记录(纳税)（商家）
+
+string GetRecordByID（ID）		//根据ID查到其记录（（用户|商家）、（消费记录|电子发票|中奖））9
