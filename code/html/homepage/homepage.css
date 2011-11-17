@@ -1,4 +1,8 @@
-﻿table{
+﻿body{
+	position:absolute;
+	left:145px;
+}
+table{
 	width:1024px;
 	}
 #table1
@@ -104,3 +108,19 @@ width:1024px;
 #menu .current_page_item a {
 }
 
+#text{
+position:absolute;
+top:320px;
+left:100px;
+color:#FFFFFF;
+font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#news{
+position:absolute;
+top:650px;
+left:100px;
+color:black;
+font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
